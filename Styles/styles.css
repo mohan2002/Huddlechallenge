@@ -359,6 +359,11 @@ body{
     font-size: 1.5rem;
 }
 
+.mob
+{
+    display: none;
+}
+
 @media all and (max-width:1200px){
     .wireframepart{
         height: 80vh;
@@ -437,7 +442,8 @@ body{
         width: 100%;
     }
     .flowerimages{
-        width: 60%;
+        width: 70%;
+        height: 50%;
     }
 
     .flowing-center{
@@ -482,5 +488,14 @@ body{
     }
     .emailpart{
         width: 100%;
+    }
+}
+
+@media all and (max-width:500px){
+    .mob{
+        display: block;
+    }
+    .lap{
+        display: none;
     }
 }
