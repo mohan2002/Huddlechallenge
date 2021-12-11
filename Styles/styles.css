@@ -1,0 +1,486 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    margin: 0px;
+    padding: 0px;
+}
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.top-part{
+    height:60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navpart{
+    width: 90%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 26px;
+    width: 110;
+}
+
+.btn1{
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 8px 16px 8px 16px;
+    box-shadow: 0px 0px 5px hsla(322, 100%, 66%, 0.178);
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.bannerpart{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.bannerheading{
+    font-family: 'Poppins', sans-serif; 
+    font-size:40px;
+    text-align: center;
+}
+
+.bannerbtn
+{
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 20px;
+    padding: 10px 40px;
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0 1px 7px 1px #cac7c7;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: 400;
+    
+}
+
+.bannerbtn:hover{
+    background-color: hsla(322, 100%, 66%, 0.781);
+    box-shadow: 0 1px 7px 1px #cac7c7;
+}
+
+.bannerpara{
+    font-size :0.83rem;
+    width: 43%;
+    color: hsl(192, 100%, 9%);
+    font-weight: 600;
+    text-align: center;
+    opacity: 0.9;
+    line-height: 20px;
+}
+
+
+.wireframepart{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wireframe{
+    width: 55%;
+}
+
+.communitypart{
+    height:30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.group{
+    height: 90%;
+}
+
+.com-img{
+    height:30px;
+    width: 30px;
+}
+.com-cnt{
+    font-size: 3.2rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.com-stat{
+    font-size: 0.8rem;
+    color:hsl(192, 100%, 9%);
+    opacity: 0.9;
+    font-weight: 600;
+}
+
+
+.growtogetherpart{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.grow-center{
+    height: 45vh;
+    background-color: #F6FBFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.grow-inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.grow-group{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.growtogetherheading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.growpara{
+    font-size :0.83rem;
+    width: 80%;
+    color: hsl(192, 100%, 9%);
+    font-weight: 600;
+    opacity: 0.9;
+    line-height: 20px;
+}
+
+.growtogetherimage
+{
+    height: 100%;
+    width: 30%;
+}
+
+.flowing-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+    width: 100%;    
+}
+
+.flowerimages{
+    height: 90%;
+    width: 30%;
+}
+
+.flowinginner{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flowgroup{
+    margin-left: 200px;
+    height: 100%;
+    /* width: 60%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.flowheading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flowpara{
+    font-size :0.83rem;
+    width: 100%;
+    color: hsl(192, 100%, 9%);
+    font-weight: 600;
+    opacity: 0.9;
+    line-height: 20px;
+}
+
+.readytobuild{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.readytobuild h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Footer
+{
+    width: 100%;
+}
+
+
+.footer-image{
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.footerpart{
+    height: 50vh;
+    background-color: #00252E;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color:hsl(207, 100%, 98%)
+}
+
+
+.footer-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 100px;
+    padding: 25px;
+}
+
+.color{
+    height: 20px;
+    width: 120px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(
+    93deg) brightness(103%) contrast(103%);
+}
+
+.footerpara{
+    width: 60%;
+    font-size: 0.9rem;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 0.9rem;
+}
+
+.rightcontent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+}
+
+.footerheading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rightpara{
+    font-size :0.80rem;
+    width: 50%;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.subpart{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.emailpart{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 40%;
+    padding: 7px;
+}
+
+.sub{
+    background-color: hsl(322, 100%, 66%);
+    margin-left: 30px;
+    padding: 7px 25px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: hsl(0, 0%, 100%);
+}
+.socials i{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+}
+
+@media all and (max-width:1200px){
+    .wireframepart{
+        height: 80vh;
+    }
+    .wireframe{
+        width: 65%;
+    }
+}
+
+
+@media all and (max-width: 908px) {
+    .top-part{
+        height: 75vh;
+    }
+    .bannerheading{
+        width: 88%;
+    }
+    .wireframepart{
+        height: 60vh;
+    }
+    .growtogetherimage,.flowerimages{
+        width: 40%;
+    }
+    .flowgroup{
+        margin-left: 100px;
+    }
+}
+
+@media all and (max-width:600px){
+    .bannerpara{
+        width: 80%;
+    }
+    .bannerheading{
+        font-size: 30px;
+    }
+    .wireframepart{
+        height: 40vh;
+    }
+    .wireframe{
+        width: 80%;
+    }
+
+    .communitypart{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    .grow-center{
+        height:90vh;
+    }
+    .grow-inner{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .growtogetherimage{
+        width: 70%;
+    }
+    .flowerimages{
+        width: 50%;
+    }
+    .growtogetherheading{
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+    .grow-group{
+        text-align: center;
+        width: 100%;
+    }
+
+    .growpara{
+        width: 100%;
+    }
+    .flowerimages{
+        width: 60%;
+    }
+
+    .flowing-center{
+        height: 70vh;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .flowinginner{
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        gap: 40px;
+    }
+    .flowgroup{
+        margin-left: 0px;
+    }
+    .readytobuild h2{
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media all and (max-width:700px){
+    .footerpart{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .footer-left{
+        margin-left: 0px;
+    }
+    .footerpara{
+        width: 100%;
+    }
+    .rightpara{
+        width: 100%;
+    }
+    .subpart{
+        flex-direction: column;
+    }
+    .emailpart{
+        width: 100%;
+    }
+}
