@@ -416,7 +416,7 @@ body{
     }
 
     .grow-center{
-        height:90vh;
+        height:70vh;
     }
     .grow-inner{
         display: flex;
@@ -497,5 +497,8 @@ body{
     }
     .lap{
         display: none;
+    }
+    .subpart{
+        align-items: flex-start;
     }
 }
